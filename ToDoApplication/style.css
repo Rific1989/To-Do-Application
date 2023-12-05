@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(89, 89, 128);
+}
+
+body h1 {
+    color: #05eaff;
+    font-family: sans-serif;
+    font-size: 40px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    width: 250px;
+    height: 30px;
+    font-size: 18px;
+}
+
+input[type=text]::placeholder{
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    width: 80px;
+    height: 35px;
+    font-size: 18px;
+    background-color: rgb(46, 54, 54);
+    color: #05eaff;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+.bodyapp {
+    background: #27272c;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0 20px 20px 20px;
+}
+
+.tasklist {
+    max-width: 500px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.tasklist span {
+    background: rgb(214, 214, 243);
+    float: left;
+    color: black;
+    width: 450px;
+    line-height: 25px;
+    font-family: "Comic Sans MS";
+    border-radius: 1px;
+}
+
+.tasklist button {
+    height: 26px;
+    width: 26px;
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 2px;    
+    margin-left: 5px;
+    background-color: #0f4449;
+    color: #05eaff;
+    cursor: pointer;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+}
